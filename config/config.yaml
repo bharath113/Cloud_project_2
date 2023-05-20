@@ -1,0 +1,8 @@
+region: us-east-1
+s3-input: cse546proj2bharathshrutikaveri
+s3-output: cse546proj2outputbharathshrutikaveri
+util: cse546proj2utilbharathshrutikaveri
+lambda-name: FindStudent
+lamdba-handler: handler.face_recognition_handler
+lambda-uri: 960608765812.dkr.ecr.us-east-1.amazonaws.com/lambda@sha256:99cda1332f578fc4881e522b0f0dab4d8b9dc580e29e2ef5c88c468f67796fcc
+registry: FaceRecognition
